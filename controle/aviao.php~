@@ -1,0 +1,40 @@
+<form action = "aviaoCadastrar.php" method = "POST">
+	<label>Modelo: </label>
+	<input type = "text" name="Modelo"><br />
+
+	<label>Marca: </label>
+	<input type = "text" name="Marca"><br />
+
+	<label>Quantidade Passageiros: </label>
+	<input type = "text" name="QtdPassageiros"><br />
+	
+	<label>Tamanho: </label>
+	<input type = "text" name="Tamanho"><br />
+	
+	<label>Peso: </label>
+	<input type = "text" name="Peso"><br />
+	
+	<label>Finalidade: </label>
+	<input type = "text" name="Finalidade"><br />
+	
+	<label>Destino: </label>
+	<input type = "text" name="Destino"><br />
+
+	
+	<label>Quantidade Gasolina: </label>
+	<input type = "text" name="QtdGasolina"><br />
+
+	<label>Vaga Ocupada: </label>
+	<input type = "date" name="text"><br />
+
+	<label>Horario Partida: </label>
+	<input type = "time" name="text"><br />	
+	
+	<label>Distância Viagem: </label>
+	<input type = "text" name="DistanciaViagem"><br />
+	
+	<label>Tempo no Ar: </label>
+	<input type = "time" name="TempoAr"><br />
+	
+	<input type="submit" value = "CADASTRAR">
+</form>
